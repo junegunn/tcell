@@ -26,7 +26,7 @@
 // -go       specifies Go output into the named file.  Use - for stdout.
 // -nofatal  indicates that errors loading definitions should not be fatal
 // -P pkg    use the supplied package name
-// -I import use the named import instead of github.com/gdamore/tcell/v2/terminfo
+// -I import use the named import instead of github.com/junegunn/tcell/v2/terminfo
 //
 
 package main
@@ -43,7 +43,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gdamore/tcell/v2/terminfo"
+	"github.com/junegunn/tcell/v2/terminfo"
 )
 
 type termcap struct {
@@ -649,7 +649,7 @@ func dotGoInfo(w io.Writer, terms []*TData) {
 }
 
 var packname = ""
-var tipackname = "github.com/gdamore/tcell/v2/terminfo"
+var tipackname = "github.com/junegunn/tcell/v2/terminfo"
 
 func dotGoFile(fname string, terms []*TData) error {
 	w := os.Stdout

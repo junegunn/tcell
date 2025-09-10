@@ -20,7 +20,7 @@
 
 package sun
 
-import "github.com/gdamore/tcell/v2/terminfo"
+import "github.com/junegunn/tcell/v2/terminfo"
 
 func init() {
 

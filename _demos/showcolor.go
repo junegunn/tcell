@@ -30,7 +30,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gdamore/tcell/v2"
+	"github.com/junegunn/tcell/v2"
 	"github.com/mattn/go-runewidth"
 )
 

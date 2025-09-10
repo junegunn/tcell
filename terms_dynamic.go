@@ -25,8 +25,8 @@ import (
 	// also don't support Android here, because you really don't want
 	// to run external programs there.  Generally the android terminals
 	// will be automatically included anyway.
-	"github.com/gdamore/tcell/v2/terminfo"
-	"github.com/gdamore/tcell/v2/terminfo/dynamic"
+	"github.com/junegunn/tcell/v2/terminfo"
+	"github.com/junegunn/tcell/v2/terminfo/dynamic"
 
 	"fmt"
 )
